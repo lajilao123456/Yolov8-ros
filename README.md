@@ -1,2 +1,6 @@
 # Yolov8-ros
 在jetson orin nx arm架构的开发板上部署环境并使用yolov8进行目标检测和距离输出
+下载ultralytics源码，在源码目录下建立py文件，这边上传py文件
+detect_video.py,在里面替换成自己的pt文件和视频路径，对视频进行目标检测
+detect_video_ros.py，在里面替换成自己的pt文件和视频节点，对ros环境下的彩色相机进行目标识别
+detect_video_ros_1.py在里面替换成自己的pt文件和彩色图像和深度图像节点，在ros环境下，彩色相机进行目标识别，深度相机进行距离输出
